@@ -61,12 +61,6 @@ Sample 3: Hello, I'm a language model, which is a model of the world and a speci
           language. If you are on your native language, you are talking
 ```
 
-The model demonstrates:
-- ✅ Coherent sentence structure
-- ✅ Contextually relevant continuations
-- ✅ Domain knowledge (Python, Xbox, language concepts)
-- ✅ Grammatically correct text generation
-
 ## 🚀 Quick Start
 
 ### Prerequisites
@@ -162,48 +156,6 @@ Training uses the **edu_fineweb10B** dataset - a high-quality educational subset
 To prepare your own dataset:
 ```bash
 python fineweb.py
-```
-
-## 🔧 Advanced Usage
-
-### Disable Weights & Biases
-
-Option 1: Edit config
-```python
-# configs/config.py
-use_wandb: bool = False
-```
-
-Option 2: Environment variable
-```bash
-WANDB_MODE=disabled python train.py
-```
-
-### Resume from Checkpoint
-
-```python
-# configs/config.py
-resume_from_checkpoint: str = "checkpoints/5000.pt"
-```
-
-### Custom Model Size
-
-```python
-# configs/config.py
-# GPT-2 Small (124M params) - default
-n_layer: int = 12
-n_head: int = 12
-n_embd: int = 768
-
-# GPT-2 Medium (350M params)
-n_layer: int = 24
-n_head: int = 16
-n_embd: int = 1024
-
-# GPT-2 Large (774M params)
-n_layer: int = 36
-n_head: int = 20
-n_embd: int = 1280
 ```
 
 ## 📖 Blog Post
