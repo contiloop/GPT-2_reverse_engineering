@@ -163,13 +163,6 @@ python fineweb.py
 For detailed walkthrough and insights, check out my blog post:
 - **[Korean]** [https://blog.naver.com/gettingwetinseu/224054116922]
 
-## 🙏 Acknowledgments
-
-This project is built upon the excellent work by:
-- **Andrej Karpathy** - Original tutorial: [Let's reproduce GPT-2 (124M)](https://www.youtube.com/watch?v=l8pRSuU81PU)
-- **OpenAI** - GPT-2 and GPT-3 papers and code
-- **HuggingFace** - Datasets and FineWeb-Edu
-
 ## 🔗 References
 
 - **Andrej Karpathy**
