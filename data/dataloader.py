@@ -6,6 +6,8 @@ import torch
 def load_tokens(filename):
     """Load tokens from numpy file"""
     npt = np.load(filename)
+    # Handle different shard sizes - flatten to 1D array
+    npt = npt.flatten()
     ptt = torch.tensor(npt, dtype=torch.long)
     return ptt
 
