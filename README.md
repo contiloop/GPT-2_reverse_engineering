@@ -170,10 +170,8 @@ This project is built upon the excellent work by:
 - **OpenAI** - GPT-2 and GPT-3 papers and code
 - **HuggingFace** - Datasets and FineWeb-Edu
 
-## 📄 License
-
-MIT License - see LICENSE file for details
-
 ## 🔗 References
 
-- [Original Tutorial](https://github.com/karpathy/build-nanogpt)
+- **Andrej Karpathy**
+  - YouTube: [Let's reproduce GPT-2 (124M)](https://www.youtube.com/watch?v=l8pRSuU81PU)
+  - Github: [build-nanogpt](https://github.com/karpathy/build-nanogpt)
