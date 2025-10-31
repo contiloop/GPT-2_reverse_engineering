@@ -17,14 +17,13 @@ Following the excellent tutorial by Andrej Karpathy:
 
 ### My Contributions
 Beyond the tutorial, I added:
-- ✅ **Bug fixes** - Resolved issues not addressed in original video
+- ✅ **Bug fixes** - Resolved issues not addressed in original video (Fixed torch.compile() conflict with HellaSwag evaluation, etc)
 - ✅ **Modularized architecture** - Organized into `models/`, `data/`, `utils/`, `configs/`
 - ✅ **Weights & Biases integration** - Real-time experiment tracking
   - Automatic model graph visualization
   - Gradient flow monitoring
   - Loss/Perplexity tracking
   - System metrics (GPU/CPU usage)
-- ✅ **Bug fixes** - Fixed `torch.compile()` conflict with HellaSwag evaluation
 - ✅ **Production-ready code** - Clean, maintainable, and scalable
 
 ## 📊 Results
